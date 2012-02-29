@@ -1,0 +1,33 @@
+README for the program heatIM.f90, HW3
+Stephanie Aho 
+
+Compile:
+
+$ gfortran -o heatIM heatIM.f90
+
+Run:
+
+$ ./heatIM
+ nsteps:           1
+ step:           1
+ Jacobi timer:
+  0.22200000    
+ step:           1
+ Gauss-Seidel timer:
+  0.47799999    
+ step:           1
+ S.O.Relaxation timer:
+   1.6930000    
+ done!
+
+
+**Output is the number of steps and then the method, 
+followed by the divisions in the x direction (nx) and 
+finally the runtime for one nstep of the algorithm**
+
+The program implements iterative methods for the 3D heat
+equation.  Jacobi, Gauss-Seidel, and S.O.Relaxation are 
+implemented constant boundary conditions and a cubic shape.
+
+There are initialize, Jacobi, GaussSeidel, and SORelax
+subroutines included in the program. 
