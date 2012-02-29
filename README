@@ -9,6 +9,7 @@ Run:
 
 $ ./heatIM
  nsteps:           1
+ size:         100
  step:           1
  Jacobi timer:
   0.22200000    
