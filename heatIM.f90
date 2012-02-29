@@ -9,6 +9,7 @@ program heatIM
   real, dimension(nd+1, nd+1, nd+1)  :: x
 
   print*, 'nsteps:', nsteps
+  print*, 'size:', nd
   d = l/nd !distance between grid points is l/nd
   bc = 0 !the constant value for the boundary conditions
   C = alpha * dt/(d**2) 
