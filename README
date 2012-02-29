@@ -22,8 +22,7 @@ $ ./heatIM
 
 
 **Output is the number of steps and then the method, 
-followed by the divisions in the x direction (nx) and 
-finally the runtime for one nstep of the algorithm**
+followed by the runtime for one nstep of the algorithm**
 
 The program implements iterative methods for the 3D heat
 equation.  Jacobi, Gauss-Seidel, and S.O.Relaxation are 
